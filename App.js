@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { GameEngine } from 'react-native-game-engine';
 import entities from './entities';
-import Physics from './physics';
+import Physics from './physics'; 
 
 export default function App() {
   const [running, setRunning]=useState(false)
